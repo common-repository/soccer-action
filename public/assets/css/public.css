@@ -1,0 +1,690 @@
+/* general rules ------------------------------------------------------------ */
+
+.daextsocact-field {
+    position: relative;
+}
+
+.daextsocact-field > img {
+    display: block;
+    width: 100%;
+}
+
+.daextsocact-field-element {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* set z-index -------------------------------------------------------------- */
+
+.daextsocact-field-element {
+    z-index: 0;
+}
+
+.daextsocact-field-element:not(.daextsocact-player-label) {
+    z-index: 1;
+}
+
+/* blue-player-white-skin --------------------------------------------------- */
+
+.daextsocact-blue-white-stand-frontal {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-stand-frontal.png') 0 0 no-repeat;
+    height: 57px;
+    width: 22px;
+}
+
+.daextsocact-blue-white-walk-right {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-walk-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 19px;
+}
+
+.daextsocact-blue-white-walk-left {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-walk-left.png') 0 0 no-repeat;
+    height: 56px;
+    width: 22px;
+}
+
+.daextsocact-blue-white-run-right {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-run-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 40px;
+}
+
+.daextsocact-blue-white-run-left {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-run-left.png') 0 0 no-repeat;
+    height: 52px;
+    width: 44px;
+}
+
+.daextsocact-blue-white-sprint-right {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-sprint-right.png') 0 0 no-repeat;
+    height: 51px;
+    width: 44px;
+}
+
+.daextsocact-blue-white-sprint-left {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-sprint-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 44px;
+}
+
+.daextsocact-blue-white-kick-2-right {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-kick-2-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 47px;
+}
+
+.daextsocact-blue-white-kick-2-left {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-kick-2-left.png') 0 0 no-repeat;
+    height: 57px;
+    width: 47px;
+}
+
+.daextsocact-blue-white-kick-1-right {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-kick-1-right.png') 0 0 no-repeat;
+    height: 60px;
+    width: 61px;
+}
+
+.daextsocact-blue-white-kick-1-left {
+    background: url('../../../shared/assets/img/blue-player-white-skin/blue-white-kick-1-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 62px;
+}
+
+/* blue-player-black-skin --------------------------------------------------- */
+
+.daextsocact-blue-black-stand-frontal {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-stand-frontal.png') 0 0 no-repeat;
+    height: 57px;
+    width: 22px;
+}
+
+.daextsocact-blue-black-walk-right {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-walk-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 19px;
+}
+
+.daextsocact-blue-black-walk-left {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-walk-left.png') 0 0 no-repeat;
+    height: 56px;
+    width: 22px;
+}
+
+.daextsocact-blue-black-run-right {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-run-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 40px;
+}
+
+.daextsocact-blue-black-run-left {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-run-left.png') 0 0 no-repeat;
+    height: 52px;
+    width: 44px;
+}
+
+.daextsocact-blue-black-sprint-right {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-sprint-right.png') 0 0 no-repeat;
+    height: 51px;
+    width: 44px;
+}
+
+.daextsocact-blue-black-sprint-left {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-sprint-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 44px;
+}
+
+.daextsocact-blue-black-kick-2-right {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-kick-2-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 47px;
+}
+
+.daextsocact-blue-black-kick-2-left {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-kick-2-left.png') 0 0 no-repeat;
+    height: 57px;
+    width: 47px;
+}
+
+.daextsocact-blue-black-kick-1-right {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-kick-1-right.png') 0 0 no-repeat;
+    height: 60px;
+    width: 61px;
+}
+
+.daextsocact-blue-black-kick-1-left {
+    background: url('../../../shared/assets/img/blue-player-black-skin/blue-black-kick-1-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 62px;
+}
+
+/* red-player-white-skin ---------------------------------------------------- */
+
+.daextsocact-red-white-stand-frontal {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-stand-frontal.png') 0 0 no-repeat;
+    height: 57px;
+    width: 22px;
+}
+
+.daextsocact-red-white-walk-right {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-walk-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 19px;
+}
+
+.daextsocact-red-white-walk-left {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-walk-left.png') 0 0 no-repeat;
+    height: 56px;
+    width: 22px;
+}
+
+.daextsocact-red-white-run-right {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-run-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 40px;
+}
+
+.daextsocact-red-white-run-left {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-run-left.png') 0 0 no-repeat;
+    height: 52px;
+    width: 44px;
+}
+
+.daextsocact-red-white-sprint-right {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-sprint-right.png') 0 0 no-repeat;
+    height: 51px;
+    width: 44px;
+}
+
+.daextsocact-red-white-sprint-left {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-sprint-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 44px;
+}
+
+.daextsocact-red-white-kick-2-right {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-kick-2-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 47px;
+}
+
+.daextsocact-red-white-kick-2-left {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-kick-2-left.png') 0 0 no-repeat;
+    height: 57px;
+    width: 47px;
+}
+
+.daextsocact-red-white-kick-1-right {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-kick-1-right.png') 0 0 no-repeat;
+    height: 60px;
+    width: 61px;
+}
+
+.daextsocact-red-white-kick-1-left {
+    background: url('../../../shared/assets/img/red-player-white-skin/red-white-kick-1-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 62px;
+}
+
+/* red-player-black-skin ---------------------------------------------------- */
+
+.daextsocact-red-black-stand-frontal {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-stand-frontal.png') 0 0 no-repeat;
+    height: 57px;
+    width: 22px;
+}
+
+.daextsocact-red-black-walk-right {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-walk-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 19px;
+}
+
+.daextsocact-red-black-walk-left {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-walk-left.png') 0 0 no-repeat;
+    height: 56px;
+    width: 22px;
+}
+
+.daextsocact-red-black-run-right {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-run-right.png') 0 0 no-repeat;
+    height: 56px;
+    width: 40px;
+}
+
+.daextsocact-red-black-run-left {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-run-left.png') 0 0 no-repeat;
+    height: 52px;
+    width: 44px;
+}
+
+.daextsocact-red-black-sprint-right {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-sprint-right.png') 0 0 no-repeat;
+    height: 51px;
+    width: 44px;
+}
+
+.daextsocact-red-black-sprint-left {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-sprint-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 44px;
+}
+
+.daextsocact-red-black-kick-2-right {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-kick-2-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 47px;
+}
+
+.daextsocact-red-black-kick-2-left {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-kick-2-left.png') 0 0 no-repeat;
+    height: 57px;
+    width: 47px;
+}
+
+.daextsocact-red-black-kick-1-right {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-kick-1-right.png') 0 0 no-repeat;
+    height: 60px;
+    width: 61px;
+}
+
+.daextsocact-red-black-kick-1-left {
+    background: url('../../../shared/assets/img/red-player-black-skin/red-black-kick-1-left.png') 0 0 no-repeat;
+    height: 49px;
+    width: 62px;
+}
+
+/* goal keeper white skin --------------------------------------------------- */
+
+.daextsocact-white-keeper-1-right {
+    background: url('../../../shared/assets/img/goal-keeper-white-skin/white-keeper-1-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 19px;
+}
+
+.daextsocact-white-keeper-1-left {
+    background: url('../../../shared/assets/img/goal-keeper-white-skin/white-keeper-1-left.png') 0 0 no-repeat;
+    height: 54px;
+    width: 19px;
+}
+
+.daextsocact-white-keeper-2-right {
+    background: url('../../../shared/assets/img/goal-keeper-white-skin/white-keeper-2-right.png') 0 0 no-repeat;
+    height: 83px;
+    width: 20px;
+}
+
+.daextsocact-white-keeper-2-left {
+    background: url('../../../shared/assets/img/goal-keeper-white-skin/white-keeper-2-left.png') 0 0 no-repeat;
+    height: 77px;
+    width: 19px;
+}
+
+/* goal keeper black skin --------------------------------------------------- */
+
+.daextsocact-black-keeper-1-right {
+    background: url('../../../shared/assets/img/goal-keeper-black-skin/black-keeper-1-right.png') 0 0 no-repeat;
+    height: 54px;
+    width: 19px;
+}
+
+.daextsocact-black-keeper-1-left {
+    background: url('../../../shared/assets/img/goal-keeper-black-skin/black-keeper-1-left.png') 0 0 no-repeat;
+    height: 54px;
+    width: 19px;
+}
+
+.daextsocact-black-keeper-2-right {
+    background: url('../../../shared/assets/img/goal-keeper-black-skin/black-keeper-2-right.png') 0 0 no-repeat;
+    height: 83px;
+    width: 20px;
+}
+
+.daextsocact-black-keeper-2-left {
+    background: url('../../../shared/assets/img/goal-keeper-black-skin/black-keeper-2-left.png') 0 0 no-repeat;
+    height: 77px;
+    width: 19px;
+}
+
+/* ball --------------------------------------------------------------------- */
+
+.daextsocact-ball-no-shadow {
+    background: url('../../../shared/assets/img/ball/ball-no-shadow.png') 0 0 no-repeat;
+    height: 25px;
+    width: 14px;
+}
+
+.daextsocact-ball-shadow {
+    background: url('../../../shared/assets/img/ball/ball-shadow.png') 0 0 no-repeat;
+    height: 25px;
+    width: 14px;
+}
+
+.daextsocact-ball-cr-trail-0 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-0.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-22-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-22-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-45 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-45.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-67-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-67-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-90 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-90.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-112-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-112-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-135 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-135.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-157-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-157-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-180 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-180.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-202-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-202-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-225 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-225.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-247-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-247-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-270 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-270.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-292-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-292-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-315 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-315.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-cr-trail-337-5 {
+    background: url('../../../shared/assets/img/ball/ball-cr-trail-337-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-0 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-0.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-22-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-22-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-45 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-45.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-67-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-67-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-90 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-90.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-112-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-112-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-135 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-135.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-157-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-157-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-180 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-180.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-202-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-202-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-225 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-225.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-247-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-247-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-270 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-270.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-292-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-292-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-315 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-315.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-ball-ccr-trail-337-5 {
+    background: url('../../../shared/assets/img/ball/ball-ccr-trail-337-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+/* arrow ------------------------------------------------------------------- */
+
+.daextsocact-arrow-0 {
+    background: url('../../../shared/assets/img/arrow/arrow-0.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-22-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-22-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-45 {
+    background: url('../../../shared/assets/img/arrow/arrow-45.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-67-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-67-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-90 {
+    background: url('../../../shared/assets/img/arrow/arrow-90.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-112-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-112-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-135 {
+    background: url('../../../shared/assets/img/arrow/arrow-135.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-157-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-157-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-180 {
+    background: url('../../../shared/assets/img/arrow/arrow-180.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-202-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-202-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-225 {
+    background: url('../../../shared/assets/img/arrow/arrow-225.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-247-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-247-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-270 {
+    background: url('../../../shared/assets/img/arrow/arrow-270.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-292-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-292-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-315 {
+    background: url('../../../shared/assets/img/arrow/arrow-315.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+.daextsocact-arrow-337-5 {
+    background: url('../../../shared/assets/img/arrow/arrow-337-5.png') 0 0 no-repeat;
+    height: 62px;
+    width: 62px;
+}
+
+/* daextsocact-player-label -------------------------------------------------------- */
+
+.daextsocact-player-label {
+    background: url('../../../shared/assets/img/label/player-label.png') 0 0 no-repeat;
+    height: 22px;
+    width: 123px;
+    opacity: 0.7;
+}
+
+.daextsocact-field .daextsocact-player-label-text {
+
+    background: none;
+    border: medium none;
+    color: #fff;
+    font-size: 10px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 12px 0 30px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 81px;
+
+    /* prevent div highlighting */
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -khtml-user-select: none; /* webkit browsers */
+    -o-user-select: none; /* not yet implemented */
+    user-select: none; /* not yet implemented */
+    -webkit-touch-callout: none;
+
+    /* keep the cursor pointer */
+    cursor: default;
+
+}
